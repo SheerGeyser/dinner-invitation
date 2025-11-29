@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Приглашение на ужин</title>
+    <meta
+      name="description"
+      content="Романтическое приглашение на уютный вечер за ужином."
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Montserrat:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-gradient"></div>
+    <div id="hearts-container"></div>
+
+    <main class="page">
+      <section class="card card--hero fade-in">
+        <h1 class="hero__title">Привет!</h1>
+        <p class="hero__subtitle">Рад тебя здесь видеть.</p>
+      </section>
+
+      <section class="card card--invite fade-in fade-in--delayed">
+        <p class="invite__text">
+          Предлагаю провести вечер вместе за ужином. Будет уютно и интересно —
+          без спешки, просто пообщаемся.
+        </p>
+      </section>
+
+      <section class="card card--details fade-in fade-in--later">
+        <h2 class="section-title">Детали вечера</h2>
+        <div class="details">
+          <div class="details__row">
+            <span class="details__icon">📅</span>
+            <span class="details__label">Дата:</span>
+            <span class="details__value" id="invite-date">Пт, 5 декабря</span>
+          </div>
+          <div class="details__row">
+            <span class="details__icon">🕕</span>
+            <span class="details__label">Время:</span>
+            <span class="details__value" id="invite-time">19:00</span>
+          </div>
+          <div class="details__row">
+            <span class="details__icon">📍</span>
+            <span class="details__label">Место:</span>
+            <span class="details__value">
+              <a
+                href="https://2gis.ru/pervouralsk/firm/70000001059045928?m=59.961421%2C56.90831%2F17.91"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                ул. Вайнера, 15а/1, Первоуральск
+              </a>
+            </span>
+          </div>
+        </div>
+
+        <div class="scan-frame">
+          <div class="scan-frame__border"></div>
+          <div class="scan-frame__line"></div>
+          <p class="scan-frame__hint">
+            Открылось по QR — значит, ты уже на шаг ближе к этому вечеру ✨
+          </p>
+        </div>
+      </section>
+
+      <section class="card card--cta fade-in fade-in--latest">
+        <p class="cta__text">
+          Если интересно, напиши.
+        </p>
+        <div class="cta__buttons">
+          <a
+            class="btn btn--primary"
+            href="https://t.me/BeeDrila"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Telegram
+          </a>
+          <a
+            class="btn btn--ghost"
+            href="https://vk.com/html_css"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ВКонтакте
+          </a>
+        </div>
+        <p class="cta__note">
+          (при желании можно позвонить или написать туда, где тебе удобнее)
+        </p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__text">Буду ждать с нетерпением ❤️</p>
+    </footer>
+
+    <script src="main.js" defer></script>
+  </body>
+</html>
+
+
